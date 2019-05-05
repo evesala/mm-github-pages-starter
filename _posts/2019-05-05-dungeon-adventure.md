@@ -45,6 +45,7 @@ tags:
 
             <li><a href="/?token=ca808da0e3d540aeb85b111f4716243a">Book</a>
             <li><a href="/?token=4d59a861772344c48b2d990c2a4c912f">Dungeon Adventure</a>
+            https://generator.campaign-logger.com/execute/4d59a861772344c48b2d990c2a4c912f
             <li><a href="/?token=4284fd155dde4381be3557856c56c704">Food</a>
             <li><a href="/?token=e90cad90d80544bd9d71340c9c029fb9">Money</a>
             <li><a href="/?token=db916491a1a24485bc9dc3340b9644a5">Monster</a>
