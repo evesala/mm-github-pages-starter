@@ -30,6 +30,9 @@ minimal_mistakes_skin: air
 logo: "/assets/images/logo.png"
 teaser: "/assets/images/teaser-500x300.jpg"
 search: true
+head_scripts:
+  - https://code.jquery.com/jquery-3.2.1.min.js
+  - /assets/js/app.js
 
 # Build settings
 markdown: kramdown
