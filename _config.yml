@@ -33,6 +33,11 @@ search: true
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
   - /assets/js/app.js
+  - /assets/js/blk-design-system.js
+  - /assets/js/blk-design-system.min.js
+  - /assets/js/core/bootstrap.min.js
+  - /assets/js/core/jquery.min.js
+  - /assets/js/core/popper.min.js
 
 # Build settings
 markdown: kramdown
