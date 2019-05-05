@@ -42,14 +42,14 @@ tags:
             <p class="caption">Generators:</p>
             
             <ul>
-
-            <li><a href="/?token=ca808da0e3d540aeb85b111f4716243a">Book</a>
-            <li><a href="/?token=4d59a861772344c48b2d990c2a4c912f">Dungeon Adventure</a>
-            <li><a href="https://generator.campaign-logger.com/execute/4d59a861772344c48b2d990c2a4c912f">Dungeon Adventure</a>
-            <li><a href="/?token=4284fd155dde4381be3557856c56c704">Food</a>
-            <li><a href="/?token=e90cad90d80544bd9d71340c9c029fb9">Money</a>
-            <li><a href="/?token=db916491a1a24485bc9dc3340b9644a5">Monster</a>
-            <li><a href="/?token=de9e32d8e15b4aaba2fa9c443feabd46">Potion</a>
+            <li><a href="/?token=ca808da0e3d540aeb85b111f4716243a">Book</a></li>
+            <li><a href="/?token=4d59a861772344c48b2d990c2a4c912f">Dungeon Adventure</a></li>
+            <li><a href="https://generator.campaign-logger.com/execute/4d59a861772344c48b2d990c2a4c912f">Dungeon Adventure</a></li>
+            <li><a href="/?token=4284fd155dde4381be3557856c56c704">Food</a></li>
+            <li><a href="/?token=e90cad90d80544bd9d71340c9c029fb9">Money</a></li>
+            <li><a href="/?token=db916491a1a24485bc9dc3340b9644a5">Monster</a></li>
+            <li><a href="/?token=de9e32d8e15b4aaba2fa9c443feabd46">Potion</a></li>
+            </ul>
 
   <!--   Core JS Files   -->
   <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
