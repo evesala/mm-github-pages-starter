@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Dungeon Adventure"
 excerpt_separator: "<!--more-->"
 categories:
   - generator
@@ -40,24 +40,19 @@ tags:
 
             <br />
             <p class="caption">Generators:</p>
-            <br/>
+            
             <ul>
 
             <li><a href="/?token=ca808da0e3d540aeb85b111f4716243a">Book</a>
             <li><a href="/?token=4d59a861772344c48b2d990c2a4c912f">Dungeon Adventure</a>
             <li><a href="/?token=4284fd155dde4381be3557856c56c704">Food</a>
-            <!-- <li><a href="/?token=c105fca52e7c4057a8974ce6ea938a28">Insult</a> -->
             <li><a href="/?token=e90cad90d80544bd9d71340c9c029fb9">Money</a>
             <li><a href="/?token=db916491a1a24485bc9dc3340b9644a5">Monster</a>
             <li><a href="/?token=de9e32d8e15b4aaba2fa9c443feabd46">Potion</a>
 
             </ul>
-            <br/>
-
+            
           </div>
-
-          <p class="legend">Utilizing the <a href="https://campaign-logger.com/">Campaign Logger</a> generator engine.</p>
-          <p>Based on <a href="https://gnrtr.fun/">GNRTR</a> by <a href="https://github.com/klaumann/">klaumann</a>.</p>
         </div>
       </div>
     </div>
@@ -66,5 +61,4 @@ tags:
   <!--   Core JS Files   -->
   <script src="assets/js/app.js" type="text/javascript"></script>
 
-  <!--  -->
 </body>
