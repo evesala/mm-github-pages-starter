@@ -73,7 +73,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name     : "ELF Vesala"
+  name     : "ELF"
   avatar   : "/assets/images/bio-photo.png"
   bio      : "Creating a library of universally useful random generators for role-players and Game Masters."
   location : "Helsinki, Finland"
