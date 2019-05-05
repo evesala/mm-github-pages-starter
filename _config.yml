@@ -13,15 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Random Creation
-email: rndcrt@gmail.com
+title: "Random Creation"
+masthead_title: "Random Creation generator site"
+title_separator: "|"
+locale: "en-US"
 description: >- # this means to ignore newlines until "baseurl:"
-  Creating a library of universally useful random generators for role-players and Game Masters.
-baseurl: /mm-github-pages-starter
-url: https://evesala.github.io/random-creation/
+  "A collection of tabletop RPG random generators for role-players and game masters."
+breadcrumbs: true
+baseurl: "/random-creation"
+url: "https://evesala.github.io"
+repository: "evesala/random-creation"
+email: "rndcrt@gmail.com"
 twitter_username: rndcrt
 github_username: evesala
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
+logo: "/assets/images/logo-88x82.gif"
+teaser: "/assets/images/teaser-500x300.jpg"
 search: true
 
 # Build settings
@@ -31,7 +38,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: FI # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Helsinki # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,34 +65,32 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "ELF Vesala"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name     : "ELF Vesala"
+  avatar   : "/assets/images/bio-photo.png"
+  bio      : "Creating a library of universally useful random generators for role-players and Game Masters."
+  location : "Helsinki, Finland"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
+      url: "https://random-creation.net/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/rndcrt"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/evesala"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/rndcrt/"
+    - label: "Pinterest"
+      icon: "fab fa-fw fa-pinterest"
+      url: "https://fi.pinterest.com/randomizedcreation/"
+
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/rndcrt"
+    - label: "Pinterest"
+      icon: "fab fa-fw fa-pinterest"
+      url: "https://fi.pinterest.com/randomizedcreation/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/rndcrt"
 
 defaults:
   # _posts
@@ -95,17 +100,23 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+  # _generators
+  - scope:
+      path: ""
+      type: generator
+    values:
+      layout: single
 
 category_archive:
   type: liquid
