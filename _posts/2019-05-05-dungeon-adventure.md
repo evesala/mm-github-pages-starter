@@ -22,7 +22,7 @@ tags:
               </button>
 
               <!-- Custom Link -->
-              <button href="#" class="btn  btn-round btn-sm" data-toggle="tooltip" data-original-title="Copy generator link to clipboard"
+              <button href="#" class="btn  btn-round btn-sm" data-toggle="tooltip" data-original-title="Copy link to clipboard"
                 id="btn-permalink" disabled>
                 <i class="tim-icons icon-link-72"></i>
                 Copy Link
@@ -50,15 +50,5 @@ tags:
             <li><a href="/?token=db916491a1a24485bc9dc3340b9644a5">Monster</a>
             <li><a href="/?token=de9e32d8e15b4aaba2fa9c443feabd46">Potion</a>
 
-            </ul>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!--   Core JS Files   -->
   <script src="assets/js/app.js" type="text/javascript"></script>
-
-</body>
