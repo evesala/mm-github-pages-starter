@@ -26,7 +26,7 @@ repository: "evesala/random-creation"
 email: "rndcrt@gmail.com"
 twitter_username: rndcrt
 github_username: evesala
-minimal_mistakes_skin: air
+minimal_mistakes_skin: contrast
 logo: "/assets/images/logo.png"
 teaser: "/assets/images/teaser-500x300.jpg"
 search: true
